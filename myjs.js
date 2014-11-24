@@ -1,8 +1,9 @@
+
 // # 1. Addition
 // Write a program that asks the user to input two numbers via the Terminal, then adds those numbers and prints the result.  
 console.log("Please enter two numbers, one at a time.");
 var num_1 = readline();
-var num_2 = readLine();
+var num_2 = readline();
 console.log(num_1 + num_2);
 
 // # 2. Squaring
@@ -46,7 +47,7 @@ console.log(fortune + " in WDI");
 var options = ['rock','paper','scissors']
 console.log("Please enter one of the following: " + options.toString())
 var player = readline();
-var computer = options[Math.floor(Math.random()* options.length);] 
+var computer = options[Math.floor(Math.random() * options.length);] 
 if (player == computer) {
   console.log("Draw!");
 } else if ((player == "rock" && computer == "scissors") || (player == "scissors" && computer == "paper") || (player == "paper" && computer == "rock")) {
